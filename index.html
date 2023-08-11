@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unicap Vercel</title>
 </head>
 <style>
-    *, body, html {
+    *,
+    body,
+    html {
         margin: 0;
         padding: 0;
 
         background-color: blanchedalmond;
     }
+
+    nav {
+        height: 100%;
+        width: 25%;
+
+        margin: 0.1em;
+        background-color: cadetblue;
+    }
+
+    .nav-button {
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    .main-container {
+        height: 100%;
+        width: 75%;
+
+        margin: 0.2em;
+    }
 </style>
+
 <body>
     <nav>
         <ul>
-            <li><a href="http://google.com">Google</a></li>
+            <li><a class="nav-button href=" http://google.com">Google</a></li>
         </ul>
     </nav>
-    <p>
-        Hello World
-    </p>
+    <div class="main-container">
+        Container
+    </div>
 </body>
+<script>
+    alert("Welcome to my website")
+</script>
 </html>
