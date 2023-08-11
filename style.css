@@ -22,6 +22,7 @@ html {
 
 nav {
     position: fixed;
+    top: 0px;
     width: 98%;
     height: 15%;
 
@@ -51,6 +52,7 @@ nav {
 }
 
 .main-container {
+    position: relative;
     width: 98%;
     height: 85%;
 
